@@ -67,4 +67,12 @@ extension TableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let model = Country(name: countryNames[indexPath.row])
+        
+        let vc = CountryDetails(country: model)
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
