@@ -15,6 +15,7 @@
 		2045C4442B58244100634849 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045C4432B58244100634849 /* Country.swift */; };
 		2045C4462B58247400634849 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045C4452B58247400634849 /* CountryCell.swift */; };
 		2045C4482B5825BE00634849 /* CountryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045C4472B5825BE00634849 /* CountryDetails.swift */; };
+		2045C44A2B582BA700634849 /* CountryFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045C4492B582BA700634849 /* CountryFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2045C4432B58244100634849 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		2045C4452B58247400634849 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		2045C4472B5825BE00634849 /* CountryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetails.swift; sourceTree = "<group>"; };
+		2045C4492B582BA700634849 /* CountryFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				2045C4452B58247400634849 /* CountryCell.swift */,
+				2045C4492B582BA700634849 /* CountryFlag.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2045C4442B58244100634849 /* Country.swift in Sources */,
+				2045C44A2B582BA700634849 /* CountryFlag.swift in Sources */,
 				2045C3FF2B581FC200634849 /* TableViewController.swift in Sources */,
 				2045C3FB2B581FC200634849 /* AppDelegate.swift in Sources */,
 				2045C4462B58247400634849 /* CountryCell.swift in Sources */,

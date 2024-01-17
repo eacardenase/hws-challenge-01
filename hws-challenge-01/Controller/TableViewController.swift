@@ -28,6 +28,7 @@ class TableViewController: UITableViewController {
 extension TableViewController {
     func configureUI() {
         title = "Flags Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         tableView.register(CountryCell.self, forCellReuseIdentifier: CountryCell.reuseIdentifier)
     }
